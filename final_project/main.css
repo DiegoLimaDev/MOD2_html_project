@@ -1,0 +1,90 @@
+@import 'src/food_bg.jpg';
+
+:root {
+    --yellow: #E1DF4C;
+    --red: #E02427;
+    --blue: #186594;
+    --lightBlue: #0D91E0;
+    --mustard: #949101;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+    background-image: url('src/burguer_1.jpeg');
+    width: 100%;
+    padding: 0 3rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+
+.top-row {
+    display: flex;
+    direction: ltr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_name {
+    font-family: 'Pacifico', cursive !important;
+    font-size: 8rem;
+    color: var(--yellow);
+}
+
+.menu {
+    display: flex;
+    direction: ltr;
+    padding: 0 2rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.menu-links {
+    margin: 0 3rem;
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+.menu-links:hover {
+    transform: scale(1.2);
+    transition: all 200ms ease-in-out;
+}
+
+.special-box {
+    padding-bottom: 0.5rem;
+}
+
+.dashed-text {
+    border: 1px dashed;
+    width: 15%;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.box-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.offer1, .offer2 {
+    background-image: url('src/burguer_2.jpeg');
+    width: 30%;
+    height: 40rem;
+    border-radius: 4px;
+}
+
+.text-offer {
+    color: var(--yellow);
+    font-size: 3.5rem;
+    margin-left: 1.5rem;
+    width: 25%;
+}
+
