@@ -6,6 +6,8 @@
     --blue: #186594;
     --lightBlue: #0D91E0;
     --mustard: #949101;
+    --black: #121212;
+    --white: #D3D3D3;
 }
 
 html {
@@ -15,7 +17,7 @@ html {
 
 .top {
     background-image: url('src/burguer_1.jpeg');
-    width: 100%;
+    width: auto;
     padding: 0 3rem;
     margin-top: -1rem;
     margin-left: -1rem;
@@ -55,14 +57,16 @@ html {
 
 .special-box {
     padding-bottom: 0.5rem;
+    width: 20%;
+    margin: 0 auto;
 }
 
 .dashed-text {
     border: 1px dashed;
-    width: 15%;
     text-align: center;
     font-size: 2rem;
     color: var(--yellow);
+    padding: 2rem;
 }
 
 .box-2 {
@@ -71,7 +75,7 @@ html {
     flex-direction: row;
     align-self: center;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .offer1, .offer2 {
@@ -86,5 +90,135 @@ html {
     font-size: 3.5rem;
     margin-left: 1.5rem;
     width: 25%;
+}
+
+.box-3 {
+    margin-top: 8rem;
+}
+
+.box-3-tag {
+    background-color: var(--yellow);
+    width: 25%;
+    margin: 0 auto;
+    box-shadow: 5px 2px 8px var(--black);
+}
+
+.box-3-tag-text {
+    color: var(--black);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.box-3-title {
+    color: var(--black);
+    font-size: 6rem;
+    text-align: center;
+}
+
+.box-3-text-2 {
+    font-size: 2rem;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    color: var(--black);
+    margin-top: -2rem;
+
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.column-division {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-size {
+    width: 35rem;
+    height: 30rem;
+}
+
+.burguer-title {
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: var(--black);
+}
+
+.burguer-description {
+    font-size: 2rem;
+    color: var(--black);
+    text-align: center;
+    margin: 0 auto;
+    width: 35rem;
+}
+
+.order-button {
+    margin-top: 2rem;
+    background-color: var(--red);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+    box-shadow: 5px 2px 8px var(--black);
+}
+
+.button-text {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.box-5 {
+    display: flex;
+    flex-direction: row;
+    margin: 8rem auto 0 auto;
+    justify-content: space-evenly;
+    width: 90%;
+
+}
+
+.box-5-text-1 {
+    color: var(--black);
+    font-size: 3rem;
+    width: 90%;
+}
+
+.box-5-text-2 {
+    color: var(--black);
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: -2rem;
+}
+
+.box-6 {
+    margin: 8rem
+}
+
+.box-6-text-align {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.box-6-text-1 {
+    color: var(--black);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.box-6-text-2 {
+    color: var(--black);
+    font-size: 8rem;
+    font-weight: bold;
+    margin-top: -2rem;
+    text-align: center;
 }
 
